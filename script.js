@@ -95,6 +95,10 @@ const agregarItem = (item) => {
     return (e) => {
         item.cantidad++;
         localStorage.setItem(item.id, JSON.stringify(item));
+        Toastify({
+            text: "Agregado! - cantidad: " + item.cantidad,
+            duration: 3000
+        }).showToast();
     }
 }
 
