@@ -25,16 +25,19 @@ class Producto {
 }
 
 //Definición del catalogo
-const catalogo = [  new Producto(1, "olla 24 cm", 25000),
-                    new Producto(2, "sarten 20 cm", 20000),
-                    new Producto(3, "savarin", 5000),
-                    new Producto(4, "olla 20 cm", 18000),
-                    new Producto(5, "flip", 15000),
-                    new Producto(6, "mate", 4000),
-                    new Producto(7, "termo", 7000),
-                    new Producto(8, "wok", 6000),
-                    new Producto(9, "multiprocesador", 11000)
-                ];
+const catalogo = [];
+
+//Carga de items del catalogo
+const cargaCatalogo = async () => {
+    const resp = await fetch('/data.json')
+    const data = await resp.json()
+   
+    data.forEach((item) => {
+        catalogo.push(new Producto(item.id, item.nombre, item.precio));
+    });
+}
+cargaCatalogo();
+
 
 //Array resultado de la búsqueda
 let encontrados = [];
