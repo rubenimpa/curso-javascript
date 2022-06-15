@@ -1,11 +1,11 @@
 [
-    {"id": 1, "nombre": "olla 24 cm", "precio": 25000},
-    {"id": 2, "nombre": "sarten 20 cm", "precio": 20000},
-    {"id": 3, "nombre": "savarin", "precio": 5000},
-    {"id": 4, "nombre": "olla 20 cm", "precio": 18000},
-    {"id": 5, "nombre": "flip", "precio": 15000},
-    {"id": 6, "nombre": "mate", "precio": 4000},
-    {"id": 7, "nombre": "termo", "precio": 7000},
-    {"id": 8, "nombre": "wok", "precio": 6000},
-    {"id": 9, "nombre": "multiprocesador", "precio": 11000}
+    {"id": 1, "nombre": "olla 24 cm", "imagen": "images/olla-24.png", "precio": 25000},
+    {"id": 2, "nombre": "sarten 20 cm", "imagen": "images/sarten-20.png", "precio": 20000},
+    {"id": 3, "nombre": "savarin", "imagen": "images/savarin.jpeg", "precio": 5000},
+    {"id": 4, "nombre": "olla 20 cm", "imagen": "images/olla-20.png", "precio": 18000},
+    {"id": 5, "nombre": "flip", "imagen": "images/flip.jpeg", "precio": 15000},
+    {"id": 6, "nombre": "mate", "imagen": "images/mate.jpeg", "precio": 4000},
+    {"id": 7, "nombre": "termo", "imagen": "images/termo.jpeg", "precio": 7000},
+    {"id": 8, "nombre": "wok", "imagen": "images/wok.jpeg", "precio": 6000},
+    {"id": 9, "nombre": "multiprocesador", "imagen": "images/multiprocesador.png", "precio": 11000}
 ]

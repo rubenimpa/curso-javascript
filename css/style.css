@@ -5,8 +5,54 @@
     flex-wrap: wrap;
 }
 
+.cart-button {
+    padding: 0;
+    border: 0;
+}
+
+.cart-img {
+    width: 60px;
+    height: 60px;
+}
+
 .catalogo-item {
+    margin: 20px;
     text-align: center;
-    border: 1px solid #000000;
     width: 250px;
+}
+
+.agregado-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    text-align: center;
+}
+
+
+#search-input {
+    width: 80%;
+}
+
+.cart-section {
+    text-align: end;
+}
+
+.col-sm {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.img-item { 
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.agregado-col-1 {
+    width: 100px;
+}
+
+/*modifica el estilo de bootstrap modal, posición a la derecha*/
+#model-dialog-cart {
+    margin-right: 0;
 }
